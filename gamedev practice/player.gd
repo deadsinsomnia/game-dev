@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed = 100
-@export var jump_velocity = -300
+@export var jump_velocity = -400
 @export var gravity = 900
 
 @export var dodge_speed = 150
