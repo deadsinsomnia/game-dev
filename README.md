@@ -17,9 +17,11 @@ added maxwell the cat
 - completed the level 1 map with different platforms for map obstacle
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b3f9179c-b024-4c0a-a596-9887c1b5ccd2" />
 
+### WEEK 2 V2
 - started making the level 2 map
 - difficulty curve in map obstacles
 - added killzone and reset point for player in both levels
+- after dying player respawns not at level 1 but on the same level or scene
   
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/4a19fffd-02cf-40bc-aa48-baca7ab49052" />
 
