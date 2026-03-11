@@ -41,7 +41,8 @@ added maxwell the cat
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a79a1582-b609-4118-898f-9b631dffae01" />
 
-* to add score for each enemy killed in by player
-* to add sound effects for players and enemy
-* add menu 
+|--NOTES--|
+* *to add score for each enemy killed in by player
+* *to add sound effects for players and enemy
+* *add menu 
 
