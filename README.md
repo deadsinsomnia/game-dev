@@ -44,5 +44,9 @@ added maxwell the cat
 |--NOTES--|
 * *to add score for each enemy killed in by player
 * *to add sound effects for players and enemy
-* *add menu 
+* *add menu page
+* *menu page content
+* - play button
+* - level selection
+* - keybinds and volume
 
