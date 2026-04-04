@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1jpihl7kx0id"
+path="res://.godot/imported/21_orc_damage_2.wav-81f76474ee10955db143ffd1b8c66d2e.sample"
+
+[deps]
+
+source_file="res://sprites/main sfx/21_orc_damage_2.wav"
+dest_files=["res://.godot/imported/21_orc_damage_2.wav-81f76474ee10955db143ffd1b8c66d2e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

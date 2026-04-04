@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxqt1u8pk8cl1"
+path="res://.godot/imported/06_door_close_1.mp3-d64b67876b1c5e7c5dd61fbb3fed3ab8.mp3str"
+
+[deps]
+
+source_file="res://sprites/main sfx/06_door_close_1.mp3"
+dest_files=["res://.godot/imported/06_door_close_1.mp3-d64b67876b1c5e7c5dd61fbb3fed3ab8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://d0ffcm41eag40"]
+
+[ext_resource type="Script" uid="uid://d2n321cj3h32p" path="res://musicmanager.gd" id="1_7hedx"]
+[ext_resource type="AudioStream" uid="uid://bxq8t356foojl" path="res://sprites/music/Minifantasy_Dungeon_Music/Music/Goblins_Den_(Regular).wav" id="1_53ori"]
+[ext_resource type="AudioStream" uid="uid://5x3h4beaeskj" path="res://sprites/music/Minifantasy_Dungeon_Music/Music/Goblins_Dance_(Battle).wav" id="2_7hedx"]
+
+[node name="musicmanager" type="Node" unique_id=501243217]
+script = ExtResource("1_7hedx")
+
+[node name="bg" type="AudioStreamPlayer" parent="." unique_id=499653375]
+stream = ExtResource("1_53ori")
+volume_db = -15.0
+autoplay = true
+
+[node name="battle" type="AudioStreamPlayer" parent="." unique_id=553961737]
+stream = ExtResource("2_7hedx")
+volume_db = -15.0
+autoplay = true

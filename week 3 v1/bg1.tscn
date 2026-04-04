@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://8botye26ltg1"]
+
+[ext_resource type="AudioStream" uid="uid://bxq8t356foojl" path="res://sprites/music/Minifantasy_Dungeon_Music/Music/Goblins_Den_(Regular).wav" id="1_4od2g"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" unique_id=1625108984]
+stream = ExtResource("1_4od2g")
+autoplay = true

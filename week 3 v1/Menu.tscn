@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://b60g4bw50hkeu"]
+
+[ext_resource type="Texture2D" uid="uid://5ld0062xwlpq" path="res://sprites/BOTTOMS_MISTERY/Screenshot 2026-04-02 200529.png" id="2_cx167"]
+[ext_resource type="FontFile" uid="uid://da5saxw5yna5u" path="res://sprites/BOTTOMS_MISTERY/Miss Chalkboard Italic.ttf" id="3_dolsu"]
+
+[sub_resource type="GDScript" id="GDScript_5yleq"]
+script/source = "extends Control
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_start_pressed() -> void:
+	get_tree().change_scene(\"res://game.tscn\")
+
+func _on_exit_pressed() -> void:
+	get_tree().quit()
+"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4hy44"]
+texture = ExtResource("2_cx167")
+modulate_color = Color(0.49354547, 0.49354553, 0.49354553, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mae5d"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 5
+shadow_offset = Vector2(0, 4)
+
+[node name="Menu" type="Control" unique_id=1834404151]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_5yleq")
+
+[node name="Panel" type="Panel" parent="." unique_id=230552754]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -5.0
+offset_right = 1152.0
+offset_bottom = 645.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_4hy44")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1832278869]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -184.5
+offset_top = -164.0
+offset_right = 175.0
+offset_bottom = -43.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_constants/separation = 15
+
+[node name="start" type="Button" parent="VBoxContainer" unique_id=1696991159]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_dolsu")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_mae5d")
+text = "START"
+
+[node name="exit" type="Button" parent="VBoxContainer" unique_id=1666252669]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_dolsu")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_mae5d")
+text = "EXIT"
+
+[node name="Label" type="Label" parent="." unique_id=1727975631]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -204.0
+offset_top = 50.0
+offset_right = 200.0
+offset_bottom = 108.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_dolsu")
+theme_override_font_sizes/font_size = 50
+text = "MINI DUNGEON"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/exit" to="." method="_on_exit_pressed"]

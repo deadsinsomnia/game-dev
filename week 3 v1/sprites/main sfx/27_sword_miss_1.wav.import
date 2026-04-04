@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crkocsjbkmmmt"
+path="res://.godot/imported/27_sword_miss_1.wav-c8dd1604e08196a12c19345ef9dbbdd6.sample"
+
+[deps]
+
+source_file="res://sprites/main sfx/27_sword_miss_1.wav"
+dest_files=["res://.godot/imported/27_sword_miss_1.wav-c8dd1604e08196a12c19345ef9dbbdd6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

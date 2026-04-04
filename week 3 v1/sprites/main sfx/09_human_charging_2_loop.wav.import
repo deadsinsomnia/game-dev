@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccmu0k6208ucf"
+path="res://.godot/imported/09_human_charging_2_loop.wav-ba1a4d5f7b4681de94f4732ed14b3deb.sample"
+
+[deps]
+
+source_file="res://sprites/main sfx/09_human_charging_2_loop.wav"
+dest_files=["res://.godot/imported/09_human_charging_2_loop.wav-ba1a4d5f7b4681de94f4732ed14b3deb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

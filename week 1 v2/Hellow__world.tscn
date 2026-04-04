@@ -1,0 +1,311 @@
+[gd_scene load_steps=23 format=3 uid="uid://c4qi8sqjkuqhj"]
+
+[ext_resource type="Texture2D" uid="uid://42b2gqgwkopf" path="res://asset/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_qc4y8"]
+[ext_resource type="Script" uid="uid://bkvrk6tmt1pg3" path="res://character_body_2d.gd" id="1_t554e"]
+[ext_resource type="Texture2D" uid="uid://chjswytr7lskl" path="res://asset/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png" id="2_f6jte"]
+[ext_resource type="Texture2D" uid="uid://kj37inau0rn5" path="res://asset/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character_2.png" id="3_xnsk4"]
+[ext_resource type="Texture2D" uid="uid://nm7hcsbij3jt" path="res://asset/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_1.png" id="5_8pgi2"]
+[ext_resource type="Texture2D" uid="uid://t5csaa1ry2j8" path="res://asset/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_2.png" id="6_fobad"]
+[ext_resource type="Texture2D" uid="uid://75bq2b87pqng" path="res://asset/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_3.png" id="7_7bids"]
+[ext_resource type="Texture2D" uid="uid://51sgwa0ja5k" path="res://asset/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_4.png" id="8_oyxcq"]
+[ext_resource type="Texture2D" uid="uid://doxn41vn8i7ck" path="res://asset/634088676_1577328703527807_2287164085888666784_n.jpg" id="9_f6jte"]
+[ext_resource type="Script" uid="uid://bi2irvpirrf2k" path="res://enemy.gd" id="9_xnsk4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lc6fa"]
+texture = ExtResource("1_qc4y8")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0kchm"]
+texture = ExtResource("2_f6jte")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ap1cc"]
+texture = ExtResource("3_xnsk4")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_k21vp"]
+sources/2 = SubResource("TileSetAtlasSource_lc6fa")
+sources/3 = SubResource("TileSetAtlasSource_0kchm")
+sources/4 = SubResource("TileSetAtlasSource_ap1cc")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w12f6"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_8pgi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_fobad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7bids")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_oyxcq")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kk8gx"]
+radius = 6.0
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_f6jte"]
+a = Vector2(-231, 2)
+b = Vector2(632, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_qc4y8"]
+a = Vector2(58, -2)
+b = Vector2(-3, -2)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_xnsk4"]
+b = Vector2(0, 53)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pgi2"]
+size = Vector2(36, 30)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_8pgi2"]
+a = Vector2(-143, -3)
+b = Vector2(159, -2)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_fobad"]
+b = Vector2(0.43859863, 52.01912)
+
+[node name="main" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_k21vp")
+format = 2
+layer_0/tile_data = PackedInt32Array(262165, 2, 1, 327701, 2, 2, 393237, 2, 3, 262166, 65538, 4, 327702, 458754, 1, 393238, 458754, 2, 262167, 131074, 4, 327703, 524290, 1, 393239, 524290, 2, 262168, 196610, 4, 327704, 589826, 1, 393240, 589826, 2, 262169, 262146, 4, 327705, 393218, 1, 393241, 393218, 2, 262170, 65538, 4, 327706, 458754, 1, 393242, 458754, 2, 262171, 131074, 4, 327707, 524290, 1, 393243, 524290, 2, 262172, 196610, 4, 327708, 589826, 1, 393244, 589826, 2, 262173, 262146, 4, 327709, 393218, 1, 393245, 393218, 2, 262174, 65538, 4, 327710, 458754, 1, 393246, 458754, 2, 262175, 131074, 4, 327711, 524290, 1, 393247, 524290, 2, 262176, 196610, 4, 327712, 589826, 1, 393248, 589826, 2, 262177, 262146, 4, 327713, 393218, 1, 393249, 393218, 2, 262178, 65538, 4, 327714, 458754, 1, 393250, 458754, 2, 262179, 131074, 4, 327715, 524290, 1, 393251, 524290, 2, 262180, 196610, 4, 327716, 589826, 1, 393252, 589826, 2, 262181, 262146, 4, 327717, 393218, 1, 393253, 393218, 2, 262182, 65538, 4, 327718, 458754, 1, 393254, 458754, 2, 262183, 131074, 4, 327719, 524290, 1, 393255, 524290, 2, 262184, 196610, 4, 327720, 589826, 1, 393256, 589826, 2, 262185, 262146, 4, 327721, 393218, 1, 393257, 393218, 2, 262186, 65538, 4, 327722, 458754, 1, 393258, 458754, 2, 262187, 131074, 4, 327723, 524290, 1, 393259, 524290, 2, 262188, 196610, 4, 327724, 589826, 1, 393260, 589826, 2, 262189, 65538, 4, 327725, 393218, 1, 393261, 393218, 2, 262190, 131074, 4, 327726, 458754, 1, 393262, 458754, 2, 262191, 196610, 4, 327727, 524290, 1, 393263, 524290, 2, 262192, 262146, 4, 327728, 458754, 1, 393264, 458754, 2, -131051, 2, 0, -65515, 2, 1, 21, 2, 2, 65557, 2, 3, 131093, 2, 4, 196629, 2, 0, 458773, 65538, 4, 262193, 65538, 4, 327729, 524290, 1, 393265, 524290, 2, 262194, 131074, 4, 327730, 589826, 1, 393266, 589826, 2, 262195, 196610, 4, 327731, 458754, 1, 393267, 458754, 2, 262196, 262146, 4, 327732, 524290, 1, 393268, 524290, 2, 262197, 65538, 4, 327733, 589826, 1, 393269, 589826, 2, 262198, 131074, 4, 327734, 458754, 1, 393270, 458754, 2, 262199, 196610, 4, 327735, 524290, 1, 393271, 524290, 2, 262200, 262146, 4, 327736, 589826, 1, 393272, 589826, 2, 262201, 262146, 4, 327737, 393218, 1, 393273, 393218, 2, 458774, 131074, 4, 458775, 196610, 4, 458776, 262146, 4, 458777, 65538, 4, 458778, 131074, 4, 458779, 196610, 4, 458780, 262146, 4, 458781, 65538, 4, 458782, 131074, 4, 458783, 196610, 4, 458784, 262146, 4, 458785, 65538, 4, 458786, 131074, 4, 458787, 196610, 4, 458788, 262146, 4, 458789, 65538, 4, 458790, 131074, 4, 458791, 196610, 4, 458792, 262146, 4, 458793, 65538, 4, 458794, 131074, 4, 458795, 196610, 4, 458796, 262146, 4, 458797, 65538, 4, 458798, 131074, 4, 458799, 196610, 4, 458800, 262146, 4, 458801, 65538, 4, 458802, 131074, 4, 458803, 196610, 4, 458804, 262146, 4, 458805, 65538, 4, 458806, 131074, 4, 458807, 196610, 4, 458808, 262146, 4, 458809, 262146, 4, 33, 65538, 0, 34, 131074, 0, 35, 196610, 0, 36, 262146, 0, -196566, 65538, 0, -196565, 131074, 0, -196564, 196610, 0, -196563, 262146, 0, 262202, 262146, 4, 262203, 262146, 4, 262204, 262146, 4, 327738, 458754, 1, 393274, 458754, 2, 327739, 524290, 1, 393275, 524290, 2, 327740, 589826, 1, 393276, 589826, 2, 262205, 262146, 4, 327741, 393218, 1, 393277, 393218, 2, 262206, 262146, 4, 327742, 458754, 1, 393278, 458754, 2, 262207, 262146, 4, 327743, 524290, 1, 393279, 524290, 2, 262208, 262146, 4, 327744, 589826, 1, 393280, 589826, 2, 262209, 262146, 4, 327745, 393218, 1, 393281, 393218, 2, 262210, 262146, 4, 327746, 458754, 1, 393282, 458754, 2, 262211, 262146, 4, 327747, 524290, 1, 393283, 524290, 2, 262212, 262146, 4, 327748, 393218, 1, 393284, 393218, 2, 262213, 262146, 4, 262214, 262146, 4, 327749, 458754, 1, 393285, 458754, 2, 327750, 393218, 2, 393286, 524290, 2, 262215, 262146, 4, 327751, 458754, 2, 393287, 589826, 2, 262216, 262146, 4, 327752, 393218, 1, 262217, 262146, 4, 327753, 458754, 1, 262218, 262146, 4, 393288, 393218, 2, 393289, 458754, 2, 327754, 524290, 1, 393290, 524290, 2, 262219, 262146, 4, 327755, 589826, 1, 393291, 589826, 2, -131021, 65538, 0, -131020, 131074, 0, -131019, 196610, 0, -131018, 262146, 0, 76, 327682, 3, 65612, 327682, 2, 131148, 327682, 3, -130996, 327682, 1, -65460, 327682, 2, 196684, 327682, 2, 262220, 327682, 3)
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(336, 61)
+script = ExtResource("1_t554e")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+position = Vector2(32, -4)
+sprite_frames = SubResource("SpriteFrames_w12f6")
+animation = &"new_animation"
+frame = 3
+frame_progress = 0.91749865
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(32, -3)
+shape = SubResource("CircleShape2D_kk8gx")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(32, -3)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(282, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(300, 64)
+shape = SubResource("SegmentShape2D_f6jte")
+
+[node name="platform" type="StaticBody2D" parent="."]
+position = Vector2(532, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platform"]
+position = Vector2(0, 8)
+scale = Vector2(1, 4)
+shape = SubResource("SegmentShape2D_qc4y8")
+
+[node name="wall2" type="StaticBody2D" parent="."]
+position = Vector2(126, 42)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall2"]
+position = Vector2(224, -21)
+shape = SubResource("SegmentShape2D_xnsk4")
+
+[node name="enemy" type="CharacterBody2D" parent="."]
+position = Vector2(1067, 43)
+script = ExtResource("9_xnsk4")
+
+[node name="Sprite2D" type="Sprite2D" parent="enemy"]
+position = Vector2(1.0002441, 1.0000067)
+scale = Vector2(-0.06979425, 0.057401635)
+texture = ExtResource("9_f6jte")
+region_enabled = true
+region_rect = Rect2(161.12747, 518.6018, 550.65186, 576.3297)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy"]
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_8pgi2")
+
+[node name="FloorRay" type="RayCast2D" parent="enemy"]
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(1058, 38)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(-1, 28)
+shape = SubResource("SegmentShape2D_8pgi2")
+
+[node name="platform2" type="StaticBody2D" parent="."]
+position = Vector2(688.15515, 20.44374)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platform2"]
+position = Vector2(-11.155151, -52.44374)
+scale = Vector2(1, 4)
+shape = SubResource("SegmentShape2D_qc4y8")
+
+[node name="platform3" type="StaticBody2D" parent="."]
+position = Vector2(791.635, 41.648605)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platform3"]
+position = Vector2(28.36499, -57.648605)
+scale = Vector2(1, 4)
+shape = SubResource("SegmentShape2D_qc4y8")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+position = Vector2(1402.5614, 40.98088)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(-188.5614, -27.98088)
+shape = SubResource("SegmentShape2D_fobad")

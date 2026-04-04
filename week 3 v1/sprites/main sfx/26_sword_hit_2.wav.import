@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bygdu4ooyo08v"
+path="res://.godot/imported/26_sword_hit_2.wav-941f1e19eb3e11cd59783fccf323f9a4.sample"
+
+[deps]
+
+source_file="res://sprites/main sfx/26_sword_hit_2.wav"
+dest_files=["res://.godot/imported/26_sword_hit_2.wav-941f1e19eb3e11cd59783fccf323f9a4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
