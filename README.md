@@ -41,12 +41,20 @@ added maxwell the cat
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a79a1582-b609-4118-898f-9b631dffae01" />
 
+### WEEK V3
+- added music and sfx for both player and enemy
+- music auto changes based if enemy is attacking or not
+- added ladder animation and sounds to the next scene (lvl1 - lvl2)
+- fixed bugs
+- menu page design
+
+<img width="700" height="700" alt="Screenshot 2026-04-04 173623" src="https://github.com/user-attachments/assets/4ef3c495-561b-407b-8e66-00d22c70b2ec" />
+
 |--NOTES--|
 * *to add score for each enemy killed in by player
-* *to add sound effects for players and enemy sfx
-* *add menu page
 * *menu page content:
 * - play button
-* - level selection
 * - keybinds and volume
+* - menu page button not working (idk why)
+ 
 
