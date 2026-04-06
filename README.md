@@ -41,7 +41,7 @@ added maxwell the cat
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a79a1582-b609-4118-898f-9b631dffae01" />
 
-### WEEK V3
+### WEEK 3 V3
 - added music and sfx for both player and enemy
 - music auto changes based on if enemy is attacking or not (changes from bg music to battle music and vice versa)
 - added ladder animation and sounds to the next scene (lvl1 -> lvl2)
