@@ -51,14 +51,14 @@ added maxwell the cat
 <img width="700" height="700" alt="Screenshot 2026-04-04 173623" src="https://github.com/user-attachments/assets/4ef3c495-561b-407b-8e66-00d22c70b2ec" />
 
 |--NOTES--|
-* *to add score for each enemy killed in by player
-* *menu page content:
-* - play button
-* - exit button
-* - menu page button not working (idk why)(worked on a new project but not here)(??)
+* to add score for each enemy killed in by player
+* menu page content:
+ - play button
+ - exit button
+ - menu page button not working (idk why)(worked on a new project but not here)(??)
 
 |-- TODO --|
-* - deployment of 2d game to cloud
-* - making a simple 3d game 
+ - deployment of 2d game to cloud
+ - making a simple 3d game 
  
 
