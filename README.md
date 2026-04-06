@@ -43,8 +43,8 @@ added maxwell the cat
 
 ### WEEK V3
 - added music and sfx for both player and enemy
-- music auto changes based if enemy is attacking or not
-- added ladder animation and sounds to the next scene (lvl1 - lvl2)
+- music auto changes based on if enemy is attacking or not (changes from bg music to battle music and vice versa)
+- added ladder animation and sounds to the next scene (lvl1 -> lvl2)
 - fixed bugs
 - menu page design
 
@@ -54,7 +54,11 @@ added maxwell the cat
 * *to add score for each enemy killed in by player
 * *menu page content:
 * - play button
-* - keybinds and volume
-* - menu page button not working (idk why)
+* - exit button
+* - menu page button not working (idk why)(worked on a new project but not here)(??)
+
+|-- TODO --|
+* - deployment of 2d game to cloud
+* - making a simple 3d game 
  
 
