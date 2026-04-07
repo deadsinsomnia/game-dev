@@ -5,8 +5,7 @@
 - Movements: arrow keys or WASD
 - added maxwell the cat
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f05bee15-8cce-4dd7-9d0e-e040545c63e5" />
-<br/>
----
+
 ## WEEK 2
 ### WEEK 2 V1
 - Started from scratch with new pixel set assets.added basic movements
