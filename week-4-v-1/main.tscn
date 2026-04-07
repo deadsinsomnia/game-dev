@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://cvg5n7ki2deob"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_ig7tw"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_h2yge"]
+sky_material = SubResource("ProceduralSkyMaterial_0xm2m")
+
+[sub_resource type="Environment" id="Environment_1bvp3"]
+background_mode = 2
+sky = SubResource("Sky_h2yge")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="main" type="Node3D" unique_id=195770922]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1896316862]
+environment = SubResource("Environment_1bvp3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=2014990183]
+transform = Transform3D(-0.3742422, 0.3466537, 0.86010134, 0.13928789, -0.89596623, 0.42171487, 0.9168107, 0.27762514, 0.2870237, -51.344467, 100.48564, -147.95593)
+shadow_enabled = true
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=415305084]
+transform = Transform3D(0.7, 0, 0, 0, 0.4, 0, 0, 0, 1, 0, 0, 0)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=4066580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1434937, 9.599999, 0)
+size = Vector3(51.4, 20.2, 1)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGCombiner3D/CSGBox3D" unique_id=478021502]
+transform = Transform3D(1.287, 0, 0, 0, -6.9938224e-08, -1.9800001, 0, 1.6, -8.654855e-08, 0.10000038, -6.4000006, 1.125)
+operation = 2
+radius = 6.2000003
+height = 4.075
+sides = 64
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=928669139]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 29.054724, 9.377896, -76.011696)
+size = Vector3(150.3, 20.2, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=506989962]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -22.506971, 9.355793, -74.366425)
+size = Vector3(150.3, 20.2, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1833842560]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 4.37661, 8.911583, -81.65946)
+size = Vector3(51.8, 20.2, 1)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D4" unique_id=1655821941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.868116, -2.5994492, 6.7776794)
+operation = 2
+size = Vector3(14.428284, 16.757233, 22.477692)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1886210597]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 36.950016, 9.023165, -52.800014)
+size = Vector3(43.3, 20.2, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D5" unique_id=556410955]
+transform = Transform3D(0.90000004, 0, 9.008044e-07, 0, 1, 0, -1.57361e-07, 0, 5.1520004, -50.27998, 0.7231655, 28.41601)
+size = Vector3(33.7, 19, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="CSGCombiner3D" unique_id=395093561]
+transform = Transform3D(-3.934025e-07, 0, 1, 0, 1, 0, -1, 0, -3.934025e-07, 15.30004, 8.346325, -68.14999)
+size = Vector3(31.4, 20.2, 1)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D6" unique_id=210685712]
+transform = Transform3D(1, 0, 1.3358203e-12, 0, 1, 0, 0, 0, 1, 2.0814896, -3.4809895, 3.015212)
+operation = 2
+size = Vector3(5, 22.225586, 11.848389)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGCombiner3D" unique_id=621211066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.699996, 0.2716513, -46.004486)
+radius = 4.6
+height = 50.8
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1439912881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6543503, 0.35000068, -73.00001)
+size = Vector3(155.6, 2.1000001, 232.1)
+
+[node name="ProtoController" parent="." unique_id=445290643 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 2.7000003, -29.800001)
