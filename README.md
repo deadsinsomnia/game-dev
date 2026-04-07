@@ -50,15 +50,35 @@ added maxwell the cat
 
 <img width="700" height="700" alt="Screenshot 2026-04-04 173623" src="https://github.com/user-attachments/assets/4ef3c495-561b-407b-8e66-00d22c70b2ec" />
 
+## WEEK 4
+### WEEK 4 V1
+- basic 3d game
+- basic rooms and doors
+- basic movements arrow keys as movements, space for jump
+- experiment with camera angles and lighting directions and shadows
+
+* 3D CAMERA
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/9293ba3a-d0ae-4a8c-b492-0a9176841615" />
+
+* 1st PERSON POV 3D PLAYER MODEL
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/2ec44383-0b3a-4e54-9ac5-6b0168840f5d" />
+
+* SUN LIGHTING IN PLAYER
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a6195f71-5390-49b0-8f94-ad3fd70f9736" />
+
+* SUN LIGHTING POSITIONING AND DIRECTION
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a5999407-1627-4aa0-b1da-f52e3b337cb7" />
+
+
 |--NOTES--|
 * to add score for each enemy killed in by player
 * menu page content:
  - play button
  - exit button
  - menu page button not working (idk why)(worked on a new project but not here)(??)
+* didnt make my game from 2d to 3d
 
 |-- TODO --|
- - deployment of 2d game to cloud
- - making a simple 3d game 
+ - deployment of 2d game to cloud or local (???)
  
 
